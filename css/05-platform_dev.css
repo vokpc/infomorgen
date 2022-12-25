@@ -151,7 +151,7 @@ footer {
     background: #DA291C;
     border: 2px solid #DA291C;
     text-decoration: none;
-    width: 90px;
+    width: 98px;
     height: 40px;
     box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
     margin: 5px 20px 15px 20px;
@@ -179,10 +179,9 @@ footer {
 /* Text inside the button */
 
 .download_text {
+    margin-right: 3px;
     font-size: 15px;
     color: #ffffff;
-    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: regular;
     text-align: center;
     text-decoration: none;
