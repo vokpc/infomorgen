@@ -1,0 +1,262 @@
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body,
+html {
+    background-color: #F7F6F5;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: 100px;
+    position: sticky;
+    top: 100%;
+}
+
+/* Header */
+
+#master_container_header {
+    width: auto;
+    padding-top: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: relative;
+    top: -59px;
+    z-index: 1;
+    width: 150px;
+}
+
+#top_container {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(98.52deg, #d093a6 -.35%, #e7c9bc 100.35%);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
+}
+
+#title_imprint {
+    font-size: 50px;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 60px;
+    margin-bottom: -10px;
+}
+
+/* Body */
+
+#master_container {
+    width: auto;
+    padding-top: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
+    max-width: 550px;
+    max-height: 700px;
+    min-width: 400px;
+}
+
+#title {
+    font-size: 32px;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#imprint_container {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: regular;
+    text-align: center;
+    word-break: inherit;
+}
+
+.text_autor {
+    margin: 0px 0px -35px 0px;
+    font-size: 20px;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: regular;
+    text-align: center;
+}
+
+.author_top {
+    font-size: 20px;
+    color: #5f5955;
+    display: block;
+    justify-items: left;
+    padding: 20px 20px 0px 0px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.text2 {
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: regular;
+    color: #5f5955;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 2px solid #F7F6F5;
+}
+
+.author_mastercontainer {
+    font-size: 18px;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.author_container {
+    color: #5f5955;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 2px solid #F7F6F5;
+    padding-right: 50px;
+}
+
+#description {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: regular;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+/* Footer */
+
+#footer_container {
+    background: #3D3935;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E6E3DF;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: normal;
+}
+
+#footer_impressum {
+    text-decoration: none;
+    color: #E6E3DF;
+}
+
+#footer_line {
+    width: 70%;
+    color: #E6E3DF;
+    margin: 0 0 0 0;
+    text-decoration: none;
+}
+
+#footer_bottom {
+    align-items: center;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#footer_revision {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#footer_copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer_login {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    color: #E6E3DF;
+}
+
+#footer_login:hover {
+    fill: #DA291C;
+    color: #DA291C;
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    #author_mastercontainer {
+        word-break: inherit;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #author_container {
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footer_container {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footer_container {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #footer_login {
+        white-space: normal;
+    }
+}

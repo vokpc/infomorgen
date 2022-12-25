@@ -1,0 +1,67 @@
+/* Footer */
+
+#footer_container {
+    background: #3D3935;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #E6E3DF;
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    ;
+    font-weight: normal;
+}
+
+#footer_imprint {
+    text-decoration: none;
+    color: #E6E3DF;
+}
+
+#footer_imprint:hover {
+    font-weight: bold;
+}
+
+#footer_line {
+    width: 70%;
+    color: #E6E3DF;
+    margin: 0 0 0 0;
+    text-decoration: none;
+}
+
+#footer_bottom {
+    align-items: center;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+#footer_revision {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#footer_copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_sunrise {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    color: #E6E3DF;
+}
+
+.footer_sunrise:hover {
+    font-weight: bold;
+}
+
+#icon {
+    margin-right: 2px;
+    width: 2vh;
+    height: 2vh;
+}
