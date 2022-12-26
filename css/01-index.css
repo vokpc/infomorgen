@@ -30,12 +30,10 @@ footer {
 
 .logo {
     position: relative;
-    top: 54px;
+    top: 55.5px;
 }
 
 #container {
-    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    background-color: #ffffff;
     border-radius: 8px;
     text-align: center;
     padding: 30px;
@@ -51,7 +49,7 @@ footer {
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 #text {
@@ -75,7 +73,6 @@ footer {
 
 .button {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: normal;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -108,7 +105,6 @@ footer {
 
 #button_login {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: normal;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -162,15 +158,12 @@ footer {
 }
 
 .button:hover .button_icon_inner {
-    fill: #DA291C !important;
-    background: #ffffff;
+    fill: #DA291C;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
 }
 
 .button:hover .button_icon {
-    fill: #DA291C !important;
-    background: #ffffff;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
 }
@@ -185,6 +178,7 @@ footer {
 .button_icon {
     size: 100%;
     fill: #ffffff;
+    transition: all 0.2s linear;
 }
 
 /* Text behind button */

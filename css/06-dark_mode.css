@@ -1,0 +1,126 @@
+:root {
+    --clr-base: #ffffff;
+    --clr-primary: #DA291C;
+    --clr-gray: #000000;
+    --clr-icon: #ffffff;
+    --clr-author: #5f5955;
+    transition: all 0.2s linear;
+}
+
+body {
+    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
+    margin: 0;
+    background-color: var(--clr-background);
+    color: var(--clr-gray);
+    font-size: var(--font-size);
+    transition: all 0.2s linear;
+}
+
+#theme_container {
+    width: auto;
+    height: auto;
+}
+
+.author_mastercontainer {
+    background-color: var(--clr-base);
+    transition: all 0.2s linear;
+}
+
+.author_top,
+.author_container {
+    color: var(--clr-author);
+    transition: all 0.2s linear;
+}
+
+#container {
+    background-color: var(--clr-base);
+}
+
+.dark-mode {
+    --clr-background: #222221;
+    --clr-base: #121212;
+    --clr-primary: #dbd5d0;
+    --clr-gray: #dbd5d0;
+    --clr-icon: #dbd5d0;
+    --clr-author: #dbd5d0;
+    transition: all 0.2s linear;
+}
+
+.wrapper-color-switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-switch {
+    width: 4em;
+    height: 2em;
+    border-radius: 10em;
+    background: var(--clr-base);
+    border: 2px solid var(--clr-primary);
+    position: relative;
+    cursor: pointer;
+}
+
+.color-switch-toggle {
+    width: 1.6em;
+    height: 1.6em;
+    background: var(--clr-primary);
+    position: relative;
+    border-radius: 10em;
+    top: 3px;
+    left: 0.2em;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.color-switch::before {
+    font-size: 12px;
+    content: "Light";
+    position: absolute;
+    display: inline-block;
+    width: 12em;
+    left: -2.25em;
+    top: 0.7em;
+    transition: all 0.2s linear;
+    z-index: 0;
+}
+
+.button_icon_inner {
+    fill: var(--clr-icon);
+    transition: all 0.2s linear;
+}
+
+.download_text {
+    color: var(--clr-icon);
+}
+
+.button_os:hover {
+    background: var(--clr-icon);
+}
+
+.button:hover {
+    background: var(--clr-icon);
+}
+
+.button_regular:hover,
+.button_platti:hover,
+.button_appli:hover {
+    color: #DA291C;
+    background: var(--clr-icon);
+    transition: 0.6s;
+}
+
+#input-color-switch:checked~label .color-switch-toggle {
+    transform: translatex(2em);
+}
+
+#input-color-switch:checked~.color-switch::before {
+    content: "Dark";
+    left: -4.4em;
+    transition: all 0.2s linear;
+}
+
+#input-color-switch {
+    display: none;
+}

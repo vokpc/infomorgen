@@ -8,7 +8,7 @@ html {
     font-style: normal;
     margin: 0;
     width: 100%;
-    height: 100%;
+    z-index: 10;
 }
 
 footer {
@@ -34,6 +34,16 @@ footer {
     width: 150px;
 }
 
+#toggle_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-right: 60px;
+}
+
 #top_container {
     position: absolute;
     left: 0px;
@@ -45,18 +55,16 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #000000;
     box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
 }
 
 #title_imprint {
     font-size: 50px;
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: -10px;
 }
 
@@ -102,8 +110,6 @@ footer {
 .text {
     margin: 0;
     font-size: 20px;
-    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: regular;
     text-align: center;
     word-break: inherit;
@@ -113,7 +119,6 @@ footer {
     margin: 0px 0px -35px 0px;
     font-size: 20px;
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: regular;
     text-align: center;
 }
@@ -130,12 +135,9 @@ footer {
 
 .text2 {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: regular;
-    color: #5f5955;
     text-align: left;
     vertical-align: middle;
-    border-bottom: 2px solid #F7F6F5;
 }
 
 .author_mastercontainer {
