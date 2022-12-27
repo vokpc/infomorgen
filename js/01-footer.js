@@ -9,7 +9,7 @@ class CustomFooter extends HTMLElement {
                     <hr id="footer_line">
                     <div id="footer_bottom">
                         <a id="footer_revision">
-                            Version 1.1, Stand 26.12.2022
+                            Version 1.2, Stand 27.12.2022
                         </a>
                         <p id="footer_copyright">
                             © 2022 Sunrise GmbH
