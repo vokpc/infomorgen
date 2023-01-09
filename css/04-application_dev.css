@@ -5,7 +5,7 @@
 body,
 html {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    background-color: #F7F6F5;
+    background-color: #e6e3df;
     font-style: normal;
     margin: 0;
     width: 100%;
@@ -30,6 +30,7 @@ footer {
 .logo {
     position: relative;
     top: 55.5px;
+    transition: all 0.2s linear;
 }
 
 #container {
@@ -46,9 +47,8 @@ footer {
 
 .back_button {
     float: left;
-    width: 40px;
-    height: 30px;
-    transition: 0.3s;
+    height: 35px;
+    transition: all 0.2s linear;
 }
 
 #title {
@@ -104,23 +104,9 @@ footer {
     text-decoration: none;
     width: 60px;
     height: 50px;
-    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
     margin: 15px;
     word-wrap: break-word;
     z-index: 1;
-}
-
-/* Text alignment inside the button */
-
-.button_text_alignment {
-    height: auto;
-    width: 80%;
-    font-size: 15px;
-    font-weight: regular;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    text-align: left;
-    white-space: nowrap;
 }
 
 /* Button for files */
@@ -150,7 +136,6 @@ footer {
     text-decoration: none;
     width: 120px;
     height: 40px;
-    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
     margin: 5px 20px 15px 20px;
     word-wrap: break-word;
 }
@@ -173,7 +158,7 @@ footer {
     fill: #ffffff;
 }
 
-/* Text inside the button */
+/* Text inside the download button */
 
 .download_text {
     font-size: 15px;
@@ -186,7 +171,7 @@ footer {
 /* Button effects */
 
 .button_appli:hover .button_icon_inner {
-    fill: #DA291C !important;
+    fill: #DA291C;
     background: #ffffff;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
@@ -222,28 +207,15 @@ footer {
 }
 
 .button_os:hover .button_icon_inner {
-    fill: #DA291C !important;
+    fill: #DA291C;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
 }
 
 .button_os:hover .button_icon {
-    fill: #DA291C !important;
+    fill: #DA291C;
     transition-delay: 0.3s;
     transition-duration: 0.6s;
-}
-
-.back_button:hover {
-    transform: translate(-10px, 0px);
-}
-
-.back_button:hover:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    top: 0;
-    left: 0;
-    bottom: -3em;
 }
 
 .button_text {

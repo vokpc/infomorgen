@@ -1,18 +1,43 @@
-:root {
-    --clr-base: #ffffff;
-    --clr-primary: #DA291C;
-    --clr-gray: #000000;
-    --clr-icon: #ffffff;
-    --clr-author: #5f5955;
-    transition: all 0.2s linear;
-}
-
 body {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
     margin: 0;
     background-color: var(--clr-background);
     color: var(--clr-gray);
     font-size: var(--font-size);
+    transition: all 0.2s linear;
+}
+
+:root {
+    --clr-background: #E6E3DF;
+    --clr-base: #ffffff;
+    --clr-primary: #DA291C;
+    --clr-gray: #000000;
+    --clr-text: #3c3c3b;
+    --clr-button: #DA291C;
+    --clr-button_text: #DA291C;
+    --clr-button_icon: #DA291C;
+    transition: all 0.2s linear;
+}
+
+.dark-mode {
+    --clr-background: #222221;
+    --clr-base: #121212;
+    --clr-primary: #E6e3df;
+    --clr-gray: #E6e3df;
+    --clr-text: #ffffff;
+    --clr-button: #222221;
+    --clr-button_text: #ffffff;
+    --clr-button_icon: #222221;
+    transition: all 0.2s linear;
+}
+
+.back_button_inner {
+    fill: var(--clr-button_text) !important;
+    transition: all 0.2s linear;
+}
+
+.logo_inner {
+    fill: var(--clr-button_text);
     transition: all 0.2s linear;
 }
 
@@ -28,22 +53,24 @@ body {
 
 .author_top,
 .author_container {
-    color: var(--clr-author);
+    color: var(--clr-text);
     transition: all 0.2s linear;
+}
+
+#description {
+    color: var(--clr-text);
 }
 
 #container {
     background-color: var(--clr-base);
 }
 
-.dark-mode {
-    --clr-background: #222221;
-    --clr-base: #121212;
-    --clr-primary: #dbd5d0;
-    --clr-gray: #dbd5d0;
-    --clr-icon: #dbd5d0;
-    --clr-author: #dbd5d0;
-    transition: all 0.2s linear;
+#title {
+    color: var(--clr-text);
+}
+
+#text, .text2 {
+    color: var(--clr-text);
 }
 
 .wrapper-color-switch {
@@ -86,29 +113,37 @@ body {
     z-index: 0;
 }
 
-.button_icon_inner {
-    fill: var(--clr-icon);
-    transition: all 0.2s linear;
+.button, .button_os, .button_platti, .button_appli {
+    background-color: var(--clr-button);
+    border: 2px solid var(--clr-button);
 }
 
-.download_text {
-    color: var(--clr-icon);
+.button:hover .button_icon_inner {
+    fill: var(--clr-button_icon);
 }
 
-.button_os:hover {
-    background: var(--clr-icon);
+.button_os:hover .button_icon_inner {
+    fill: var(--clr-button_icon);
 }
 
-.button:hover {
-    background: var(--clr-icon);
+.button_platti:hover .button_icon_inner {
+    fill: var(--clr-button_icon);
 }
 
-.button_regular:hover,
-.button_platti:hover,
-.button_appli:hover {
-    color: #DA291C;
-    background: var(--clr-icon);
-    transition: 0.6s;
+.button_platti:hover .download_text {
+    color: var(--clr-button_icon);
+}
+
+.button_appli:hover .button_icon_inner {
+    fill: var(--clr-button_icon);
+}
+
+.button_appli:hover .download_text {
+    color: var(--clr-button_icon);
+}
+
+.button_text {
+    color: var(--clr-button_text);
 }
 
 #input-color-switch:checked~label .color-switch-toggle {

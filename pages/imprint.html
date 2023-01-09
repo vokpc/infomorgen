@@ -8,234 +8,225 @@
 		<link href="../css/06-dark_mode.css" rel="stylesheet"/>
 		<link rel="icon" type="image/x-icon" href="https://www.sunrise.ch/etc.clientlibs/sunrise/clientlibs/react/resources/dist/img/root/favicon.ico">
 	</head>
-	<header id="master_container_header">
-		<a href="../index.html" target="_blank" id="logo_container">
-			<img class="logo" src="https://www.sunrise.ch/eshop/HeaderIcons/sunrise_new_logo.svg"/>
-		</a>
+	<body>
+		<div id="toggle_container">
+			<div></div>
+			<div class="wrapper-color-switch">
+				<div></div>
+				<input type="checkbox" id="input-color-switch">
+				<label for="input-color-switch" class="color-switch">
+					<div class="color-switch-toggle"></div>
+				</label>
+			</div>
+		</div>
 		<div id="top_container">
 			<div></div>
 			<div>
-				<h2 id="title_imprint" style="color:black">Impressum</h2><br>
-				<a class="text" style="color:black">Infomorgen</a>
+				<h2 id="title_imprint" style="color: #3c3c3b">Impressum</h2><br>
+				<a class="text" style="color: #3c3c3b">Infomorgen</a>
 			</div>
 			<div></div>
 		</div>
-		<div id="master_container_toggle">
-			<div id="toggle_container">
-				<div></div>
-				<div class="wrapper-color-switch">
-					<div></div>
-					<input type="checkbox" id="input-color-switch">
-					<label for="input-color-switch" class="color-switch">
-						<div class="color-switch-toggle"></div>
-					</label>
-				</div>
-			</div>
-		</div>
-	</header>
-	<body>
-		<div id="master_container">
-			<div id="imprint_container">
-				<div class="text">
+		<div id="imprint_container">
+			<div id="text">
+				<p>
+					<b class="text_autor">Kontaktadresse</b>
+				</p>
+				<p style="font-size: 20px">
+					<span class="">Sunrise GmbH</span>
+					<br>
+					<span class="">Thurgauerstrasse 101B / Postfach</span>
+					<br>
+					<span class="">8152 Glattpark (Opfikon)</span>
+				</p><br>
+				<div class="text_autor">
 					<p>
-						<b>Kontaktadresse</b>
+						<b>Organisation</b>
 					</p>
-					<p>
-						<span class="">Sunrise GmbH</span>
-						<br>
-						<span class="">Thurgauerstrasse 101B / Postfach</span>
-						<br>
-						<span class="">8152 Glattpark (Opfikon)</span>
-					</p><br>
-					<div class="text_autor">
+				</div>
+				<div class="author_top">
+					<div class="text2">
 						<p>
-							<b>Organisation</b>
+							<b>Verantwortliche</b>
 						</p>
 					</div>
-					<div class="author_top">
-						<div class="text2">
-							<p>
-								<b>Verantwortliche</b>
-							</p>
-						</div>
-					</div>		
-					<div class="author_mastercontainer">
-						<div class="author_container">
-							<p>
-								<b>Anita Strobl</b>
-							</p>
-						</div>
-						
-						<div class="author_container">
-							<p>
-								Berufsbildnerin Informatik
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:anita.strobl@sunrise.net" style="word-break: break-all">anita.strobl@sunrise.net</a>
-							</p>
-						</div>
-					</div>
-					<div class="author_top">
-						<div class="text2">
-							<p>
-								<b>Infomorgen Leiter</b>
-							</p>
-						</div>
-					</div>	
-					<div class="author_mastercontainer">
-						<div class="author_container">
-							<p>
-								<b>Liam Gleeson</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:liam.gleeson@sunrise.net" style="word-break: break-all">liam.gleeson@sunrise.net</a>
-							</p>
-						</div>
-					</div>
-					<div class="text_autor">
+				</div>		
+				<div class="author_mastercontainer">
+					<div class="author_container">
 						<p>
-							<b>Autoren</b>
+							<b>Anita Strobl</b>
 						</p>
 					</div>
-					<div class="author_top">
-						<div class="text2">
-							<p>
-								<b>Projektleiter</b>
-							</p>
-						</div>
-					</div>
-					<div class="author_mastercontainer">
-						<div class="author_container">
-							<p>
-								<b>Kevin Vo</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:kevin.vo@sunrise.net" style="word-break: break-all">kevin.vo@sunrise.net</a>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<b>Jack Siemers</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:jack.siemers@sunrise.net" style="word-break: break-all">jack.siemers@sunrise.net</a>
-							</p>
-						</div>
-					</div>
-					<div class="author_top">
-						<div class="text2">
-							<p>
-								<b>Unterstützung</b>
-							</p>
-						</div>
-					</div>
-					<div class="author_mastercontainer">
-						<div class="author_container">
-							<p>
-								<b>David Walt</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:david.walt@sunrise.net" style="word-break: break-all">david.walt@sunrise.net</a>
-							</p>
-						</div>
-					</div>
-					<div class="text_autor">
+					
+					<div class="author_container">
 						<p>
-							<b>Führung Infomorgen</b>
+							Berufsbildnerin Informatik
 						</p>
 					</div>
-					<div class="author_top">
-						<div class="text2">
-							<p>
-								<b>Mitführende</b>
-							</p>
-						</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:anita.strobl@sunrise.net" style="color: #DA291C">anita.strobl@sunrise.net</a>
+						</p>
 					</div>
-
-					<div class="author_mastercontainer">
-						<div class="author_container">
-							<p>
-								<b>Lorenzo Lettieri</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:lorenzo.lettieri@sunrise.net" style="word-break: break-all">lorenzo.lettieri@sunrise.net</a>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<b>Lena Bruggman</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernende Informatikerin
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:lena.bruggman@sunrise.net" style="word-break: break-all">lena.bruggman@sunrise.net</a>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<b>Halil Yener</b>
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								Lernender Informatiker
-							</p>
-						</div>
-						<div class="author_container">
-							<p>
-								<a href="mailto:halil.yener@sunrise.net" style="word-break: break-all">halil.yener@sunrise.net</a>
-							</p>
-						</div>
+				</div>
+				<div class="author_top">
+					<div class="text2">
+						<p>
+							<b>Infomorgen Leiter</b>
+						</p>
 					</div>
 				</div>	
-			</div>
-			<div id="description">
-				<p>
-					Diese Webseite wurde von Jack Siemers und Kevin Vo eingeführt.<br>Die Projektleiter sind für die Verwaltung zuständig.
-				</p>
-			</div>
+				<div class="author_mastercontainer">
+					<div class="author_container">
+						<p>
+							<b>Liam Gleeson</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:liam.gleeson@sunrise.net" style="color: #DA291C">liam.gleeson@sunrise.net</a>
+						</p>
+					</div>
+				</div>
+				<div class="text_autor">
+					<p>
+						<b>Autoren</b>
+					</p>
+				</div>
+				<div class="author_top">
+					<div class="text2">
+						<p>
+							<b>Projektleiter</b>
+						</p>
+					</div>
+				</div>
+				<div class="author_mastercontainer">
+					<div class="author_container">
+						<p>
+							<b>Kevin Vo</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:kevin.vo@sunrise.net" style="color: #DA291C">kevin.vo@sunrise.net</a>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<b>Jack Siemers</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:jack.siemers@sunrise.net" style="color: #DA291C">jack.siemers@sunrise.net</a>
+						</p>
+					</div>
+				</div>
+				<div class="author_top">
+					<div class="text2">
+						<p>
+							<b>Unterstützung</b>
+						</p>
+					</div>
+				</div>
+				<div class="author_mastercontainer">
+					<div class="author_container">
+						<p>
+							<b>David Walt</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:david.walt@sunrise.net" style="color: #DA291C">david.walt@sunrise.net</a>
+						</p>
+					</div>
+				</div>
+				<div class="text_autor">
+					<p>
+						<b>Führung Infomorgen</b>
+					</p>
+				</div>
+				<div class="author_top">
+					<div class="text2">
+						<p>
+							<b>Mitführende</b>
+						</p>
+					</div>
+				</div>
+
+				<div class="author_mastercontainer">
+					<div class="author_container">
+						<p>
+							<b>Lorenzo Lettieri</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:lorenzo.lettieri@sunrise.net" style="color: #DA291C">lorenzo.lettieri@sunrise.net</a>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<b>Lena Bruggman</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernende Informatikerin
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:lena.bruggman@sunrise.net" style="color: #DA291C">lena.bruggman@sunrise.net</a>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<b>Halil Yener</b>
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							Lernender Informatiker
+						</p>
+					</div>
+					<div class="author_container">
+						<p>
+							<a href="mailto:halil.yener@sunrise.net" style="color: #DA291C">halil.yener@sunrise.net</a>
+						</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div id="description">
+			<p>
+				Diese Webseite wurde von Jack Siemers und Kevin Vo eingeführt.<br>Die Projektleiter sind für die Verwaltung zuständig.
+			</p>
 		</div>
 	</body>
 	<script type=module src=../js/01-footer.js></script>

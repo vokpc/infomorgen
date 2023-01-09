@@ -5,7 +5,6 @@
 body,
 html {
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    background-color: #F7F6F5;
     font-style: normal;
     margin: 0;
     width: 100%;
@@ -33,6 +32,7 @@ footer {
 .logo {
     position: relative;
     top: 55.5px;
+    transition: all 0.2s linear;
 }
 
 #container {
@@ -99,48 +99,9 @@ footer {
     text-decoration: none;
     width: 60px;
     height: 50px;
-    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
     margin: 15px;
     word-wrap: break-word;
     z-index: 1;
-}
-
-#button_login {
-    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    font-weight: normal;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 2px 24px 2px 24px;
-    border-radius: 50px;
-    font-size: 16px;
-    line-height: 1;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.2s linear;
-    color: #ffffff;
-    background: #DA291C;
-    border: 2px solid #DA291C;
-    text-decoration: none;
-    width: 60px;
-    height: 50px;
-    box-shadow: 0 2px 4px rgb(87 84 82 / 20%);
-    margin: 15px;
-    word-wrap: break-word;
-    z-index: 1;
-}
-
-#button_login:hover {
-    color: #DA291C;
-    background: #ffffff;
-    transition: 0.6s;
 }
 
 .button:hover {
@@ -201,54 +162,6 @@ footer {
     font-size: 20px;
     transition-duration: 0.3s;
     transform: translate(0px, 15px);
-}
-
-/* Form */
-
-#input_user {
-    font-family: 'Nunito';
-    font-size: 100%;
-    width: 300px;
-    height: 40px;
-    border: 1px solid #B3AEAA;
-    background: #F7F6F5;
-    border-radius: 4px;
-    border-color: #3D3935;
-    margin: 10px 0 10px 0;
-    padding-left: 10px;
-}
-
-#input_pass {
-    font-family: 'Nunito';
-    font-size: 100%;
-    width: 300px;
-    height: 40px;
-    border: 1px solid #B3AEAA;
-    background: #F7F6F5;
-    border-radius: 4px;
-    border-color: #3D3935;
-    margin: 10px 0 10px 0;
-    padding-left: 10px;
-}
-
-.label {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0 12px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: #5F5955;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    -webkit-transition: all 0.25s;
-    transition: all 0.25s;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 /* Media for screen sizes below 740 width (shrink footer font) */

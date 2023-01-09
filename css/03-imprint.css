@@ -4,7 +4,7 @@
 
 body,
 html {
-    background-color: #F7F6F5;
+    background-color: #e6e3df;
     font-style: normal;
     margin: 0;
     width: 100%;
@@ -27,29 +27,9 @@ footer {
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
-#logo_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    top: -118px;
-    position: relative;
-    z-index: 1;
-    width: 150px;
-}
-
-#master_container_toggle {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 2.7vh;
-    right: 3vw;
-}
-
 #toggle_container {
-    width: 100%;
+    padding-right: 3vw;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,9 +38,6 @@ footer {
 }
 
 #top_container {
-    position: absolute;
-    left: 0px;
-    right: 0px;
     background: linear-gradient(98.52deg,#d093a6 -.35%,#e7c9bc 100.35%);
     width: 100%;
     height: 250px;
@@ -104,7 +81,6 @@ footer {
 #title {
     font-size: 32px;
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: bold;
     text-align: center;
     word-wrap: break-word;
@@ -136,7 +112,7 @@ footer {
 
 .author_top {
     font-size: 20px;
-    color: #5f5955;
+    color: #3c3c3b;
     display: block;
     justify-items: left;
     padding: 20px 20px 0px 0px;
@@ -170,7 +146,7 @@ footer {
     justify-content: left;
     flex-direction: row;
     align-items: center;
-    color: #5f5955;
+    color: #3c3c3b;
     text-align: left;
     border-bottom: 2px solid #F7F6F5;
     padding-right: 15px;
@@ -180,70 +156,9 @@ footer {
     margin: 0;
     font-size: 20px;
     font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
     font-weight: regular;
     text-align: center;
     margin-bottom: 150px;
-}
-
-/* Footer */
-
-#footer_container {
-    background: #3D3935;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #E6E3DF;
-    font-family: 'Avenir Next LT Pro', 'Nunito', sans-serif;
-    ;
-    font-weight: normal;
-}
-
-#footer_impressum {
-    text-decoration: none;
-    color: #E6E3DF;
-}
-
-#footer_line {
-    width: 70%;
-    color: #E6E3DF;
-    margin: 0 0 0 0;
-    text-decoration: none;
-}
-
-#footer_bottom {
-    align-items: center;
-    width: 70%;
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-}
-
-#footer_revision {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
-#footer_copyright {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#footer_login {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    text-decoration: none;
-    color: #E6E3DF;
-}
-
-#footer_login:hover {
-    fill: #DA291C;
-    color: #DA291C;
-    transition-duration: 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
