@@ -4,7 +4,7 @@ class CustomFooter extends HTMLElement {
             <footer>
                 <div id="footer_container">
                     <p>
-                        <a id="footer_imprint" href="/Infomorgen/pages/imprint.html" target="_blank">Impressum</a>
+                        <a id="footer_imprint" href="/infomorgen/pages/imprint.html" target="_blank">Impressum</a>
                     </p>
                     <hr id="footer_line">
                     <div id="footer_bottom">
