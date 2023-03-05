@@ -4,12 +4,12 @@ class CustomFooter extends HTMLElement {
             <footer>
                 <div id="footer_container">
                     <p>
-                        <a id="footer_imprint" href="/pages/imprint.html" target="_blank">Impressum</a>
+                        <a id="footer_imprint" href="/infomorgen/pages/imprint.html" target="_blank">Impressum</a>
                     </p>
                     <hr id="footer_line">
                     <div id="footer_bottom">
                         <a id="footer_revision">
-                            Version 2.2, Stand 09.01.2023
+                            Version 2.3, Stand 05.03.2023
                         </a>
                         <p id="footer_copyright">
                             © 2022 Sunrise GmbH
